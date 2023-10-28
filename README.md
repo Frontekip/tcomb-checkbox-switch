@@ -24,7 +24,7 @@ After adding the package to your project, you can use it as follows:
 ```JS
 
 import t from "tcomb-form";
-import CheckboxSwitch from 'tcomb-checkbox-switch';
+import CheckboxSwitch from 'tcomb-checkbox-switch'; // <-- import package
 
 const Schema = t.struct({
     is_active: t.Boolean,
@@ -33,7 +33,7 @@ const Schema = t.struct({
 const Options = {
     is_active: {
       label: "Is Active",
-      factory: CheckboxSwitch,
+      factory: CheckboxSwitch, // <-- Add factory
     },
 };
 
