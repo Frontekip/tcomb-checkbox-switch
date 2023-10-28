@@ -1,5 +1,9 @@
 # tcomb-checkbox-switch
 
+<div align="center">
+    <img width="331" alt="Screenshot 2023-10-28 at 12 37 15" src="https://github.com/Frontekip/tcomb-checkbox-switch/assets/1306620/7e9977c1-4e25-4c96-8aa3-21f16b10ed6a">
+</div>
+
 **tcomb-checkbox-switch** is an addon package that transforms the standard checkbox in tcomb-form into a switch-style input.
 
 ## Installation
