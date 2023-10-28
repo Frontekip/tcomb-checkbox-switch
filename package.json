@@ -1,0 +1,29 @@
+{
+  "name": "tcomb-checkbox-switch",
+  "version": "0.0.6",
+  "type": "module",
+  "description": "Switch checkboxes for tcomb form.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Frontekip/tcomb-checkbox-switch.git",
+  "author": "Yaşar İçli <yasaricli@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && babel src/ -d dist --copy-files"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.8.6",
+    "react-switch": "^7.0.0",
+    "tcomb-form": "^0.9.21"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
